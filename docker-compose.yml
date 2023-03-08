@@ -4,7 +4,7 @@ services:
 
   db:
     container_name: database
-    image: mysql:5.5
+    image: mysql
     hostname: database
     ports:
       - "3306:3306"
